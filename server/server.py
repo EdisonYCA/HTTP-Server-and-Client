@@ -61,7 +61,7 @@ class Server:
             return self.serve_file(path)
 
 
-           
+
 if __name__ == "__main__":
     # set-up welcoming socket
     server = Server()
