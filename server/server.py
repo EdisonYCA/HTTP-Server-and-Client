@@ -8,7 +8,7 @@ class Server:
     def __init__(self):
         self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # welcoming socket
         self.port = 8080 # assume user will always use this port
-        self.host = "0.0.0.0"
+        self.host = "127.0.0.1"
         self.default_file = "../pages/index.html"
         self.status_404_file = "../pages/404.html"
 
